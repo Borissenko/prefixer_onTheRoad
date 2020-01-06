@@ -1,0 +1,23 @@
+
+PrefixFree
+
+
+Скрипт делает все с помощью кода  JavaScript. Он обрабатывает привязанные таблицы стилей (за исключением указанных в правиле @import), встроенные стили, и даже CSS добавленный позже  (как в новых элементах, изменениях свойства CSSOM и запросах).
+
+автоматически определяет, какие свойства нужно дополнять префиксами. В коде нет списка свойств. Он определяет, какие свойства поддерживаются, а какие поддерживаются только с префиксом. Значения, селекторы и правила используют предопределенный список, но префикс будет добавляться только если он нужен
+
+В отличие от других решений, PrefixFree добавляет префиксы в момент выполнения, поэтому пользователь загружает меньший по размеру CSS код.
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wisdom Pet Medicine</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/prefixfree.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+источник ссылки для запроса JS:
+https://cdnjs.com/libraries/prefixfree
